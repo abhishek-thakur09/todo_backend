@@ -23,13 +23,14 @@
 
 
 # installation steps 
-      - unzip the project
-      - open the project into the vs code
+      - Clone the Repository
+      - Open the Project
             cd TODOBACKEN
-      - npm install
+      - Install Dependencies
 
-      - create env file
-      - npm run dev
+      - Create Environment File
+      - Run the Project
+                
 
 
 # MongoDbcollections
