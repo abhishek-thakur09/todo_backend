@@ -24,13 +24,18 @@
 
 # installation steps 
       - Clone the Repository
+                - git clone https://github.com/abhishek-thakur09/todo_backend.git
       - Open the Project
-            cd TODOBACKEN
+                - cd TODOBACKEN
       - Install Dependencies
+                - npm install
+
 
       - Create Environment File
+                        .env file
       - Run the Project
-                
+                - npm run dev
+
 
 
 # MongoDbcollections
