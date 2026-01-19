@@ -1,5 +1,5 @@
 const store = new Map();
-const DEFAULT_TTL_MS = 60 * 1000;
+const defaulttime = 60 * 1000;
 
 function get(key) {
   const entry = store.get(key);
@@ -11,7 +11,7 @@ function get(key) {
   return entry.data;
 }
 
-function set(key, data, ttlMs = DEFAULT_TTL_MS) {
+function set(key, data, ttlMs = defaulttime) {
   store.set(key, { data, expiresAt: Date.now() + ttlMs });
 }
 
